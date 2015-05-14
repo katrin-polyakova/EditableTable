@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321E4F6569B69B6BBD8576C6 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4890437F757FECC7DA8D /* NSString+Utils.m */; };
+		4491AE351AFDF40600852BB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4491AE341AFDF40600852BB9 /* main.m */; };
+		4491AE381AFDF40600852BB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4491AE371AFDF40600852BB9 /* AppDelegate.m */; };
+		4491AE3B1AFDF40600852BB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4491AE3A1AFDF40600852BB9 /* ViewController.m */; };
+		4491AE3E1AFDF40600852BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4491AE3C1AFDF40600852BB9 /* Main.storyboard */; };
+		4491AE401AFDF40600852BB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4491AE3F1AFDF40600852BB9 /* Images.xcassets */; };
+		4491AE431AFDF40600852BB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4491AE411AFDF40600852BB9 /* LaunchScreen.xib */; };
+		4491AE4F1AFDF40600852BB9 /* PlayWithEditableTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4491AE4E1AFDF40600852BB9 /* PlayWithEditableTableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4491AE491AFDF40600852BB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4491AE271AFDF40600852BB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4491AE2E1AFDF40600852BB9;
+			remoteInfo = PlayWithEditableTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		321E4890437F757FECC7DA8D /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		321E4F8EF9D332C340523E12 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		4491AE2F1AFDF40600852BB9 /* PlayWithEditableTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithEditableTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4491AE331AFDF40600852BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4491AE341AFDF40600852BB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4491AE361AFDF40600852BB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4491AE371AFDF40600852BB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4491AE391AFDF40600852BB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4491AE3A1AFDF40600852BB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4491AE3D1AFDF40600852BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4491AE3F1AFDF40600852BB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4491AE421AFDF40600852BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4491AE481AFDF40600852BB9 /* PlayWithEditableTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWithEditableTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4491AE4D1AFDF40600852BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4491AE4E1AFDF40600852BB9 /* PlayWithEditableTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayWithEditableTableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4491AE2C1AFDF40600852BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4491AE451AFDF40600852BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4491AE261AFDF40600852BB9 = {
+			isa = PBXGroup;
+			children = (
+				4491AE311AFDF40600852BB9 /* PlayWithEditableTable */,
+				4491AE4B1AFDF40600852BB9 /* PlayWithEditableTableTests */,
+				4491AE301AFDF40600852BB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4491AE301AFDF40600852BB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4491AE2F1AFDF40600852BB9 /* PlayWithEditableTable.app */,
+				4491AE481AFDF40600852BB9 /* PlayWithEditableTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4491AE311AFDF40600852BB9 /* PlayWithEditableTable */ = {
+			isa = PBXGroup;
+			children = (
+				4491AE361AFDF40600852BB9 /* AppDelegate.h */,
+				4491AE371AFDF40600852BB9 /* AppDelegate.m */,
+				4491AE391AFDF40600852BB9 /* ViewController.h */,
+				4491AE3A1AFDF40600852BB9 /* ViewController.m */,
+				4491AE3C1AFDF40600852BB9 /* Main.storyboard */,
+				4491AE3F1AFDF40600852BB9 /* Images.xcassets */,
+				4491AE411AFDF40600852BB9 /* LaunchScreen.xib */,
+				4491AE321AFDF40600852BB9 /* Supporting Files */,
+				321E4F8EF9D332C340523E12 /* NSString+Utils.h */,
+				321E4890437F757FECC7DA8D /* NSString+Utils.m */,
+			);
+			path = PlayWithEditableTable;
+			sourceTree = "<group>";
+		};
+		4491AE321AFDF40600852BB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4491AE331AFDF40600852BB9 /* Info.plist */,
+				4491AE341AFDF40600852BB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4491AE4B1AFDF40600852BB9 /* PlayWithEditableTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				4491AE4E1AFDF40600852BB9 /* PlayWithEditableTableTests.m */,
+				4491AE4C1AFDF40600852BB9 /* Supporting Files */,
+			);
+			path = PlayWithEditableTableTests;
+			sourceTree = "<group>";
+		};
+		4491AE4C1AFDF40600852BB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4491AE4D1AFDF40600852BB9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4491AE2E1AFDF40600852BB9 /* PlayWithEditableTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4491AE521AFDF40600852BB9 /* Build configuration list for PBXNativeTarget "PlayWithEditableTable" */;
+			buildPhases = (
+				4491AE2B1AFDF40600852BB9 /* Sources */,
+				4491AE2C1AFDF40600852BB9 /* Frameworks */,
+				4491AE2D1AFDF40600852BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayWithEditableTable;
+			productName = PlayWithEditableTable;
+			productReference = 4491AE2F1AFDF40600852BB9 /* PlayWithEditableTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4491AE471AFDF40600852BB9 /* PlayWithEditableTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4491AE551AFDF40600852BB9 /* Build configuration list for PBXNativeTarget "PlayWithEditableTableTests" */;
+			buildPhases = (
+				4491AE441AFDF40600852BB9 /* Sources */,
+				4491AE451AFDF40600852BB9 /* Frameworks */,
+				4491AE461AFDF40600852BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4491AE4A1AFDF40600852BB9 /* PBXTargetDependency */,
+			);
+			name = PlayWithEditableTableTests;
+			productName = PlayWithEditableTableTests;
+			productReference = 4491AE481AFDF40600852BB9 /* PlayWithEditableTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4491AE271AFDF40600852BB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kate Polyakova";
+				TargetAttributes = {
+					4491AE2E1AFDF40600852BB9 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4491AE471AFDF40600852BB9 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4491AE2E1AFDF40600852BB9;
+					};
+				};
+			};
+			buildConfigurationList = 4491AE2A1AFDF40600852BB9 /* Build configuration list for PBXProject "PlayWithEditableTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4491AE261AFDF40600852BB9;
+			productRefGroup = 4491AE301AFDF40600852BB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4491AE2E1AFDF40600852BB9 /* PlayWithEditableTable */,
+				4491AE471AFDF40600852BB9 /* PlayWithEditableTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4491AE2D1AFDF40600852BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4491AE3E1AFDF40600852BB9 /* Main.storyboard in Resources */,
+				4491AE431AFDF40600852BB9 /* LaunchScreen.xib in Resources */,
+				4491AE401AFDF40600852BB9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4491AE461AFDF40600852BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4491AE2B1AFDF40600852BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4491AE3B1AFDF40600852BB9 /* ViewController.m in Sources */,
+				4491AE381AFDF40600852BB9 /* AppDelegate.m in Sources */,
+				4491AE351AFDF40600852BB9 /* main.m in Sources */,
+				321E4F6569B69B6BBD8576C6 /* NSString+Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4491AE441AFDF40600852BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4491AE4F1AFDF40600852BB9 /* PlayWithEditableTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4491AE4A1AFDF40600852BB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4491AE2E1AFDF40600852BB9 /* PlayWithEditableTable */;
+			targetProxy = 4491AE491AFDF40600852BB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4491AE3C1AFDF40600852BB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4491AE3D1AFDF40600852BB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4491AE411AFDF40600852BB9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4491AE421AFDF40600852BB9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4491AE501AFDF40600852BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4491AE511AFDF40600852BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4491AE531AFDF40600852BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayWithEditableTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4491AE541AFDF40600852BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayWithEditableTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4491AE561AFDF40600852BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayWithEditableTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayWithEditableTable.app/PlayWithEditableTable";
+			};
+			name = Debug;
+		};
+		4491AE571AFDF40600852BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayWithEditableTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayWithEditableTable.app/PlayWithEditableTable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4491AE2A1AFDF40600852BB9 /* Build configuration list for PBXProject "PlayWithEditableTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4491AE501AFDF40600852BB9 /* Debug */,
+				4491AE511AFDF40600852BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4491AE521AFDF40600852BB9 /* Build configuration list for PBXNativeTarget "PlayWithEditableTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4491AE531AFDF40600852BB9 /* Debug */,
+				4491AE541AFDF40600852BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4491AE551AFDF40600852BB9 /* Build configuration list for PBXNativeTarget "PlayWithEditableTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4491AE561AFDF40600852BB9 /* Debug */,
+				4491AE571AFDF40600852BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4491AE271AFDF40600852BB9 /* Project object */;
+}
